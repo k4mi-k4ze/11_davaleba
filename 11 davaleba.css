@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    background: #FFFFFF;
+    padding-top: 85px;
+}
+.table-conteiner1, .table-conteiner2{
+    max-width: 1200px;
+    margin-inline: auto;
+}
+.input-title1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    text-align: left;
+}
+.input-title2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    text-align: left;
+    margin-left: 215px;   
+}
+.input-title3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    text-align: left;
+    margin-left: 590px;    
+}
+.search-form {
+    display: flex;
+    justify-content: space-between;
+}
+.search-form1 {
+    display: flex;
+}
+.button-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    text-align: center;
+    margin-left: 185px; 
+}
+.id {
+    width: 201px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+}
+.title {
+    width: 593px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+}
+.createdat {
+    width: 201px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+}
+.search-button {
+    width: 115px;
+    height: 45px;
+    background: #FFD43A;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+.button1 {
+    width: 115px;
+    height: 36px;
+    background: #FFD43A;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.button2 {
+    width: 115px;
+    height: 36px;
+    background: #E84949;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.th1 {
+    width: 72px;
+    height: 57px;
+    background: #F9F9F9;
+    border: 1px solid #DADADA;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.th2 {
+    width: 444px;
+    height: 57px;
+    background: #F9F9F9;
+    border: 1px solid #DADADA;
+    text-align: left;
+    padding-left: 23px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.th3 {
+    width: 276px;
+    height: 57px;
+    background: #F9F9F9;
+    border: 1px solid #DADADA;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.th4 {
+    width: 368px;
+    height: 57px;
+    background: #F9F9F9;
+    border: 1px solid #DADADA;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.td1 {
+    width: 72px;
+    height: 57px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.td2 {
+    width: 444px;
+    height: 57px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    text-align: left;
+    padding-left: 23px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.td3 {
+    width: 276px;
+    height: 57px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.td4 {
+    width: 368px;
+    height: 57px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
